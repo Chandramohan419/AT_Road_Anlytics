@@ -1,5 +1,5 @@
 # AT_Road_Anlytics
-Built an end-to-end data engineering solution using Python, Snowflake, dbt, and Power BI. The project ingests Auckland Transport roadworks data, applies data quality testing and dimensional modeling using dbt, and delivers interactive dashboards for tracking project status, duration, contractor performance, and overdue roadworks.
+Built an end-to-end data engineering solution using Python, Snowflake, dbt, and Power BI. The project ingests Auckland Transport roadworks data, applies data quality testing and dimensional modeling using dbt, and delivers interactive dashboards for tracking project status, duration, contractor performance, and overdue roadworks with location.
 
 # Tech Stack
 Python

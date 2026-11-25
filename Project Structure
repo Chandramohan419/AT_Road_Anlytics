@@ -7,13 +7,12 @@ roadworks-analytics/
 │   ├── staging/
 │   │   ├── stg_roadworks.sql
 │   │   └── sources.yml
-│   │
-│   ├── intermediate/
 │   │   └── int_duration.sql
-│   │
-│   └── marts/
-│       ├── dim_location.sql
-│       └── fct_roadworks.sql
+│   │   └── dim_location.sql
+│   │   └── fct_roadworks.sql
+│   │   └── incremental.sql
+│   │   └── init_overdue_projects.sql
+│   │   └── stg_roadworks.yml
 │
 ├── snapshots/
 │   └── roadworks_snapshot.sql

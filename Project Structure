@@ -1,0 +1,24 @@
+roadworks-analytics/
+│
+├── ingestion/
+│   └── roadworks_load.py
+│
+├── models/
+│   ├── staging/
+│   │   ├── stg_roadworks.sql
+│   │   └── sources.yml
+│   │   └── int_duration.sql
+│   │   └── dim_location.sql
+│   │   └── fct_roadworks.sql
+│   │   └── incremental.sql
+│   │   └── init_overdue_projects.sql
+│   │   └── stg_roadworks.yml
+│
+├── snapshots/
+│   └── roadworks_snapshot.sql
+│
+├── dbt_project.yml
+│
+├── README.md
+│
+└── .gitignore

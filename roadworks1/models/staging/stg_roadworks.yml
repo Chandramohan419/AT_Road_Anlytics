@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_roadworks
+    columns:
+      - name: ProjectNo
+        tests:
+          - not_null
+
+      - name: ProjectName
+        tests:
+          - not_null
+
+      - name: ProjectStatus
+        tests:
+          - not_null
